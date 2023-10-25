@@ -1,0 +1,26 @@
+---
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+BasedOnStyle: LLVM
+ColumnLimit: 80
+IndentWidth: 4
+PPIndentWidth: 4 # pre-processor
+IndentPPDirectives: BeforeHash # AfterHash | BeforeHash
+
+AlignAfterOpenBracket: Align  # Align | AlwaysBreak
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveDeclarations: true
+AlignConsecutiveMacros: true
+AlignEscapedNewlines: DontAlign
+
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse # WithoutElse
+AllowShortLoopsOnASingleLine: true
+
+AlwaysBreakAfterReturnType: None
+
+SpacesBeforeTrailingComments: 2
+# EOF
+...
